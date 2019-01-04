@@ -1,2 +1,2 @@
 # microprojects
-#A collection of miniature projects
+A collection of miniature projects, generally works for linux distributions.
