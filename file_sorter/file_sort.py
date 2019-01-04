@@ -11,11 +11,11 @@ def get_files():
 def sort_files():
     for filename in get_files():
         find = False
-        print(filename)
+        #print(filename)
         for foldername in get_subdir():
-            print(foldername)
+            #print(foldername)
             if foldername in filename:
-                print('success')
+                #print('success')
                 shutil.move(os.getcwd()+'/'+filename, os.getcwd()+'/'+foldername)
                 find = True
                 break
