@@ -1,12 +1,11 @@
-import matplotlib.pyplot
+import matplotlib.pyplot, pandas
+from fredapi import Fred
 import urllib, urllib2
 
-response = urllib2.urlopen('http://demo.ckan.org/api/3/action/group_list', data_string)
-assert response.code == 200
 
-response_dict = json.loads(response.read())
-
-assert response_dict['success'] is True
-result = response_dict['result']
+fred = Fred(api_key='f04a131fa269983c05a15f54edf809d5')
+gdp_data = fred.get_series_latest_release('GDP')
+data.tail()
+    
 
 print(result)
