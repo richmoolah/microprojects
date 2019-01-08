@@ -8,4 +8,4 @@ gdp_data = fred.get_series_latest_release('GDP')
 data.tail()
     
 
-print(result)
+#print(result)
