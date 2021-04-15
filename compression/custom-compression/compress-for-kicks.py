@@ -98,7 +98,6 @@ def testBit():
     #test.peek()
     #test_bits = BitArray('0b001')
     #test_bits_2 = BitArray('0b010')
-    test = Custom_Compression(r'C:/Users/Richard/Documents/VS Code/compression/middle-out/test.txt')
     print(test.get_bytecode())
     print(test.encode())
 
