@@ -16,7 +16,7 @@ grid_size = 10
 startup_points = []
 
 #heap for priority queue (original implementation used heapq but due to lack of priority, heapq adjusted order to emulate dfs)
-#heap = []
+heap = []
 
 
 #Create a grid of a certain size, zeros as place holders
@@ -84,6 +84,7 @@ def get_adjacent(array_x, array_y):
         for x in range(max(0, array_x - 1), min(array_x + 1, grid_size - 1) + 1):
 
             adjacent.append((x, y))
+
 
     adjacent.remove((array_x, array_y))
     return adjacent
