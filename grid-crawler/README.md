@@ -136,6 +136,12 @@ This is an example of how to list things you need to use the software and how to
 
 Grid-crawler is a simple application that visualizes common computer pathfinding algorithms using an interative grid and animation. The application was originally configured for DFS and BFS, but in its current state mimics Dijkstra's search pattern in code. However, because distances between squares is all equal, the search pattern visually more closely resembles BFS.
 
+The start and end points are randomly selected.
+
+Click once to set an obstacle between the two points. Click that cell again to remove the obstacle.
+
+Press space to begin the search algorithm.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
