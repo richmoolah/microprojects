@@ -186,7 +186,7 @@ Project Link: [https://github.com/richmoolah/microprojects](https://github.com/r
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Thanks to python-chess for creating a FEN engine that I could use to visualize microprojects!
+Thanks to CLRS for providing the algorithm for Dijkstra's, BFS, and DFS.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
