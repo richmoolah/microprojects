@@ -87,11 +87,8 @@
 
 
 * [python3](https://www.python.org/)
-* [tkinter](https://docs.python.org/3/library/tkinter.html)
-* [python-chess](https://python-chess.readthedocs.io/en/latest/)
-* [sqlite3](https://www.sqlite.org/index.html)
+* [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
-* [scikitlearn](https://scikit-learn.org/stable/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
 
 3. Run stuckfish.py
     ```sh
-    python3 stuckfish.py
+    python3 /grid-crawler/stuckfish.py
     ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,8 +134,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-microprojects is a simple chess interfact that ships with a microprojects bot that you can play against. When the application is started, you can simply select whether you want to play against another player or against
-the microprojects bot.
+Grid-crawler is a simple application that visualizes common computer pathfinding algorithms using an interative grid and animation. The application was originally configured for DFS and BFS, but in its current state mimics Dijkstra's search pattern in code. However, because distances between squares is all equal, the search pattern visually more closely resembles BFS.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -147,10 +143,10 @@ the microprojects bot.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Playable interface
-- [x] First iteration of microprojects bot (heuristics-based)
-- [ ] Update engine to store played games
-    - [ ] Update engine to analyze games and tweak play
+- [x] DFS/BFS
+- [x] Dijkstra
+- [ ] A*
+- [ ] Support for input of edge weights
 
 See the [open issues](https://github.com/richmoolah/microprojects/issues) for tracked issues.
 
